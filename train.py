@@ -25,7 +25,7 @@ def show_image(img, title=None):
     if title is not None:
         plt.title(title)
     plt.pause(0.001)  # pause a bit so that plots are updated
-data_location =  "data"
+data_location =  "/kaggle/input/flickr8k"
 BATCH_SIZE = 256
 # BATCH_SIZE = 6
 NUM_WORKER = 4
