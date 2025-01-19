@@ -4,7 +4,7 @@
 ## Giới thiệu
 Dự án Image Captioning là một ứng dụng sử dụng mô hình học sâu để tạo chú thích tự động cho hình ảnh. Mô hình này kết hợp giữa mạng nơ-ron tích chập (CNN) để trích xuất đặc trưng từ hình ảnh và mạng nơ-ron hồi quy (RNN) với cơ chế Attention để tạo ra các chú thích văn bản tương ứng.
 
-Repo chỉ mang tính chất học tậptập
+Repo chỉ mang tính chất học tập
 ## Dataset
 Dự án sử dụng tập dữ liệu Flickr8k, bao gồm 8000 hình ảnh và mỗi hình ảnh đi kèm với 5 chú thích mô tả. Tập dữ liệu này rất phổ biến trong các bài toán về Image Captioning.
 
@@ -23,8 +23,8 @@ Dự án sử dụng tập dữ liệu Flickr8k, bao gồm 8000 hình ảnh và 
 
 1. **Clone repo**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/Balicki24/Image_Captioning.git
+    cd <Image_Captioning>
     ```
 
 2. **Cài đặt các thư viện cần thiết**
